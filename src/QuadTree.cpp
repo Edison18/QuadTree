@@ -32,7 +32,7 @@ QuadTree::~QuadTree()
 void QuadTree::clear()
 {
     containedObjects.clear();
-    nodes.~unique_ptr();
+    nodes.reset(nullptr);
 }
 
 void QuadTree::insert(std::shared_ptr<sf::Shape> obj)
