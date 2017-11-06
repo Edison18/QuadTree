@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/piotr/Programming/QuadTree/src/MyRectangleShape.cpp
+MyRectangleShape.h
+/home/piotr/Programming/QuadTree/src/MyRectangleShape.h
+
+/home/piotr/Programming/QuadTree/src/QuadTree.cpp
+QuadTree.h
+/home/piotr/Programming/QuadTree/src/QuadTree.h
+
+/home/piotr/Programming/QuadTree/src/main.cpp
+SFML/Graphics.hpp
+-
+QuadTree.h
+/home/piotr/Programming/QuadTree/src/QuadTree.h
+MyRectangleShape.h
+/home/piotr/Programming/QuadTree/src/MyRectangleShape.h
+ctime
+-
+stdlib.h
+-
+sstream
+-
+
